@@ -11,8 +11,7 @@ import time
 
 
 def fibonacci(n):
-        # Use iterative approach since Python sucks at handling recursion for
-        # high n
+    # Use iterative approach since Python sucks at handling recursion for high n
     out = 0
     a, b = 0, 1
     while a <= n:
@@ -20,6 +19,7 @@ def fibonacci(n):
             out += a
         a, b = b, a + b
     return out
+
 
 if __name__ == "__main__":
     start = time.time()

@@ -14,6 +14,7 @@ def palindrome(digs=2):
 
     return out
 
+
 if __name__ == "__main__":
     start = time.time()
     print("--------")

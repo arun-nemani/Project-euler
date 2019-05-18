@@ -17,6 +17,7 @@ def primefactors(n):
     if n > 1:
         yield n
 
+
 if __name__ == "__main__":
     start = time.time()
     print("--------")
